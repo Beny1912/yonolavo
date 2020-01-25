@@ -1,0 +1,12 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "url": "mongodb+srv://loopback:Polencito191286@clusteryonolavo-5ehez.mongodb.net/test?retryWrites=true&w=majority",
+    "name": "mongodb",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
