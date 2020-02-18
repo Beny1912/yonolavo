@@ -19,8 +19,34 @@
       "type": "hasMany",
       "model": "userCredential",
       "foreignKey": "userId"
+    },
+    "pedidos":{
+      "type": "hasMany",
+      "model": "pedido",
+      "foreignKey": "userId"
     }
+
   },
-  "acls": [],
+  "acls": [
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    }
+
+  ],
   "methods": {}
 }

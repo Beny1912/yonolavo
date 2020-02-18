@@ -33,5 +33,13 @@
   "Role": {
     "dataSource": "mongodb",
     "public": false
+  },
+  "pedido": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Email": {
+    "dataSource": "Email"
   }
+
 }
