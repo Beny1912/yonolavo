@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
+    "prestart":"npm i",
+    "start": "node .",
     "lint": "eslint .",
     "posttest": "npm run lint"
   },
